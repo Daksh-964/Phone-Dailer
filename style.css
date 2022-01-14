@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(47, 189, 255);
+    font-family: sans-serif, 'Open sans';
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+#phonedailer{
+    width: 320px;
+    height: 520px;
+    background: #eaedef;
+    margin:0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin:0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 300px;
+    top: 4px;
+}
+.row{
+
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+
+}
+.alpha{
+    font-size: 0.8rem;
+    color: grey;
+}
+.dailbutton{
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+ .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    float: left;
+    border-radius: 40%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.number,.empty{
+    background: #eaedef;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+.number:hover{
+    background: rgb(202, 197, 197);
+}
+#dailbutton{
+    background: rgb(29, 184, 29);
+}
+#dailbutton:hover{
+    background: green;
+    width: 54x;
+    height: 52px;
+    animation-duration: 0.3s;
+}
